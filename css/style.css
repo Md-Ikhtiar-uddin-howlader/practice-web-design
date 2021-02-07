@@ -1,0 +1,237 @@
+/* basic css */
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+/* container */
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container:after, 
+.container:before{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* all colum */
+.col-1{
+    width: 8.33%;
+    float: left;
+}
+.col-2{
+    width: 16.66%;
+    float: left;
+}
+.col-3{
+    width: 25%;
+    float: left;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+}
+.col-5{
+    width: 41.66%;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-7{
+    width: 58.33%;
+    float: left;
+}
+.col-8{
+    width: 66.66%;
+    float: left;
+}
+.col-9{
+    width: 75%;
+    float: left;
+}
+.col-10{
+    width: 83.33%;
+    float: left;
+}
+.col-11{
+    width: 91.66%;
+    float: left;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+/* padding margin */
+.paddingtop20{
+    padding-top: 20px;
+}
+.paddingbottom20{
+    padding-bottom: 20px;
+}
+.paddingbottom10{
+    padding-bottom: 10px;
+}
+.paddingright20{
+    padding-right: 20px;
+}
+.paddingleft20{
+    padding-left: 20px;
+}
+/* color */
+.red{
+    color: red;
+}
+.bgcolor{
+    background-color: #59B4D3;;
+}
+/* header */
+.header{
+    height: 100px;
+    background-color: #59B4D3;
+}
+/* for all menu item */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    color: yellow;
+}
+.menu{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li a:hover{
+    height: 50px;
+    width: 70px;
+    background-color: tomato;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.slider{
+    height: 500px;
+    background-image: url("../img/slider-bg.jpg");
+    color:white;
+    text-align: center;
+    padding-top: 250px;
+}
+.slider h1{
+    font-size: 30px;
+}
+.slider p{
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+.slider a{
+     border: 1px solid black;
+     height: 40px;
+     width: 100px;
+     background-color: brown;
+     text-align: center!important;
+     border-radius: 5px;
+     line-height: 35px;
+     display: inline-block;
+}
+.slider a:hover{
+    font-size: 20px;
+}
+/* after slider */
+.section{
+    padding: 50px 100px;
+    background-color: rgba(218, 211, 211, 0.774);
+}
+.sectiontext{
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.section2{
+    padding-top: 20px;
+}
+
+/* part four */
+.partfour{
+    color: white;
+}
+.partfourtext{
+    padding-top: 50px;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+.partfourtext p{
+    width: 80%;
+    text-align: center;
+    padding-left: 200px;
+    
+}
+.partfourtext2{
+    padding: 0px 150px;
+}
+/* technology part */
+.technology{
+    background-color: rgba(218, 211, 211, 0.774) ;
+    padding: 50px 100px;
+}
+.techimgtext{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.techimgtextlink{
+    height: 40px;
+    width: 80px;
+    background-color: tomato;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+.techshare{
+    padding-left: 50px;
+}
+.company{
+    height: 100PX;
+    background-color: #9BB9BD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 0px 100px;
+}
+/* footer */
+.footer{
+    height: 300px;
+    padding: 100px 200px;
+    color: white;
+}
+/* finish */
